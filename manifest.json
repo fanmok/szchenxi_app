@@ -1,10 +1,10 @@
 {
     "@platforms" : [ "android", "iPhone", "iPad" ],
     "id" : "__W2A__www.szchenxi.cf", /*应用的标识，创建应用时自动生成，勿手动修改*/
-    "name" : "szchenxi_app", /*应用名称，程序桌面图标名称*/
+    "name" : "晨曦", /*应用名称，程序桌面图标名称*/
     "version" : {
         "name" : "1.2", /*应用版本名称*/
-        "code" : 1
+        "code" : 2
     },
     "description" : "一个方便珠海十中学生浏览校刊及学校其他动态的应用", /*应用描述信息*/
     "icons" : {
@@ -19,7 +19,6 @@
     "permissions" : {
         "Accelerometer" : {},
         "Audio" : {},
-        "Messaging" : {},
         "Cache" : {
             "description" : "管理应用缓存"
         },
@@ -27,7 +26,6 @@
         "Console" : {
             "description" : "跟踪调试输出日志"
         },
-        "Contacts" : {},
         "Device" : {},
         "Downloader" : {},
         "Events" : {
@@ -45,22 +43,18 @@
         "XMLHttpRequest" : {},
         "Zip" : {},
         "Barcode" : {},
-        "Maps" : {},
-        "Speech" : {},
         "Webview" : {},
         "NativeUI" : {},
         "Navigator" : {},
         "NativeObj" : {},
-        "Push" : {},
         "Share" : {},
-        "OAuth" : {},
-        "Payment" : {},
-        "Statistic" : {}
+        "Statistic" : {},
+        "VideoPlayer" : {}
     },
     "plus" : {
         "splashscreen" : {
             "autoclose" : true, /*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
-            "waiting" : true
+            "waiting" : false
         },
         "statusbar" : {
             "immersed" : "supportedDevice"
@@ -83,27 +77,28 @@
                 "password" : "", /*Android应用打包使用密钥库中证书的密码*/
                 "aliasname" : "", /*Android应用打包使用密钥库中证书的别名*/
                 "permissions" : [
-                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
-                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
-                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
-                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
-                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
-                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
-                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
-                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
-                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
-                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
-                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
-                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
-                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
-                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
-                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
                     "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
                     "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
                     "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
                 ]
             },
@@ -127,7 +122,15 @@
                         "spotlight-retina7" : "", /*iPhone4S/5/6 Spotlight搜索程序图标，分辨率：80x80*/
                         "settings-normal" : "", /*iPhone4设置页面程序图标，分辨率：29x29*/
                         "settings-retina" : "", /*iPhone4S/5/6设置页面程序图标，分辨率：58x58*/
-                        "settings-retina8" : ""
+                        "settings-retina8" : "",
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
                     },
                     "ipad" : {
                         "normal" : "", /*iPad普通屏幕程序图标，分辨率：72x72*/
@@ -139,15 +142,26 @@
                         "spotlight-normal7" : "", /*iPad iOS7 Spotlight搜索程序图标，分辨率：40x40*/
                         "spotlight-retina7" : "", /*iPad iOS7高分屏Spotlight搜索程序图标，分辨率：80x80*/
                         "settings-normal" : "", /*iPad设置页面程序图标，分辨率：29x29*/
-                        "settings-retina" : ""
-                    }
+                        "settings-retina" : "",
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "appstore" : "img/chenxi.png"
                 },
                 "android" : {
-                    "mdpi" : "", /*普通屏程序图标，分辨率：48x48*/
-                    "ldpi" : "", /*大屏程序图标，分辨率：48x48*/
-                    "hdpi" : "", /*高分屏程序图标，分辨率：72x72*/
-                    "xhdpi" : "", /*720P高分屏程序图标，分辨率：96x96*/
-                    "xxhdpi" : ""
+                    "mdpi" : "unpackage/res/icons/48x48.png", /*普通屏程序图标，分辨率：48x48*/
+                    "ldpi" : "unpackage/res/icons/48x48.png", /*大屏程序图标，分辨率：48x48*/
+                    "hdpi" : "unpackage/res/icons/72x72.png", /*高分屏程序图标，分辨率：72x72*/
+                    "xhdpi" : "unpackage/res/icons/96x96.png", /*720P高分屏程序图标，分辨率：96x96*/
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
                 }
             },
             "splashscreen" : {
@@ -174,15 +188,15 @@
                 "android" : {
                     "mdpi" : "", /*普通屏启动图片，分辨率：240x282*/
                     "ldpi" : "", /*大屏启动图片，分辨率：320x442*/
-                    "hdpi" : "", /*高分屏启动图片，分辨率：480x762*/
-                    "xhdpi" : "", /*720P高分屏启动图片，分辨率：720x1242*/
-                    "xxhdpi" : ""
+                    "hdpi" : "C:/Users/Mo Fan/Documents/chenxi.9.png", /*高分屏启动图片，分辨率：480x762*/
+                    "xhdpi" : "C:/Users/Mo Fan/Documents/chenxi.9.png", /*720P高分屏启动图片，分辨率：720x1242*/
+                    "xxhdpi" : "C:/Users/Mo Fan/Documents/chenxi.9.png"
                 }
             },
             "plugins" : {
-                "speech" : {
-                    "ifly" : {}
-                }
+                "speech" : {},
+                "push" : {},
+                "statics" : {}
             }
         }
     },
