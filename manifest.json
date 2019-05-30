@@ -4,7 +4,7 @@
     "name" : "晨曦", /*应用名称，程序桌面图标名称*/
     "version" : {
         "name" : "1.2", /*应用版本名称*/
-        "code" : 2
+        "code" : 3
     },
     "description" : "一个方便珠海十中学生浏览校刊及学校其他动态的应用", /*应用描述信息*/
     "icons" : {
@@ -12,8 +12,8 @@
     },
     "launch_path" : "https://www.szchenxi.cf/", /*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
     "developer" : {
-        "name" : "", /*开发者名称*/
-        "email" : "", /*开发者邮箱地址*/
+        "name" : "fanmok", /*开发者名称*/
+        "email" : "fanmok@foxmail.com", /*开发者邮箱地址*/
         "url" : ""
     },
     "permissions" : {
@@ -49,7 +49,8 @@
         "NativeObj" : {},
         "Share" : {},
         "Statistic" : {},
-        "VideoPlayer" : {}
+        "VideoPlayer" : {},
+        "Push" : {}
     },
     "plus" : {
         "splashscreen" : {
@@ -72,10 +73,10 @@
                 "frameworks" : []
             },
             "google" : {
-                "packagename" : "", /*Android应用包名，如io.dcloud.HelloH5*/
-                "keystore" : "", /*Android应用打包使用的密钥库文件*/
-                "password" : "", /*Android应用打包使用密钥库中证书的密码*/
-                "aliasname" : "", /*Android应用打包使用密钥库中证书的别名*/
+                "packagename" : "com.chenxi.online", /*Android应用包名，如io.dcloud.HelloH5*/
+                "keystore" : "provision/chenxi.keystore", /*Android应用打包使用的密钥库文件*/
+                "password" : "chenxi", /*Android应用打包使用密钥库中证书的密码*/
+                "aliasname" : "chenxi_online", /*Android应用打包使用密钥库中证书的别名*/
                 "permissions" : [
                     "<uses-feature android:name=\"android.hardware.camera\"/>",
                     "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
@@ -195,7 +196,13 @@
             },
             "plugins" : {
                 "speech" : {},
-                "push" : {},
+                "push" : {
+                    "igexin" : {
+                        "appid" : "qNz4HhkTpU9kSefSyzVEz3",
+                        "appkey" : "ot5ioJNJ6M9S9PriGpyq78",
+                        "appsecret" : "jHmBEZhEJx7zSbplTgTYz5"
+                    }
+                },
                 "statics" : {}
             }
         }
