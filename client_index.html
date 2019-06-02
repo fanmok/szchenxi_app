@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
-		<!--使用本地选项卡时，将如下两行代码注释取消-->
-		<!--<link rel="stylesheet" type="text/css" href="__wap2apptabbar.css" />
-		<script src="__wap2apptabbar.js" type="text/javascript" charset="utf-8"></script>-->
+		<link rel="stylesheet" type="text/css" href="__wap2apptabbar.css" />
+		<style type="text/css">
+			.tab-item {
+				color: black;
+			}
+
+			.tab-item.active {
+				color: blue;
+			}
+		</style>
+		<script src="__wap2apptabbar.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
 	<body>
-
+		<script>
+			new TabBar({
+				list: [{
+					url: "https://www.szchenxi.cf/",
+					text: "首页",
+					iconPath: 'img/home.png',
+					selectedIconPath: 'img/home-selected.png'
+				}, {
+					url: "https://www.szchenxi.cf/newspaper/newspaper.html",
+					text: "校刊",
+					iconPath: 'img/news.png',
+					selectedIconPath: 'img/news-selected.png'
+				}, {
+					url: "https://www.szchenxi.cf/activity/activity.html",
+					text: "活动",
+					iconPath: 'img/activity.png',
+					selectedIconPath: 'img/activity-selected.png'
+				}, {
+					url: "https://www.szchenxi.cf/activity/activity.html",
+					text: "照片墙",
+					iconPath: 'img/photo.png',
+					selectedIconPath: 'img/photo-selected.png'
+				}, {
+					url: "https://www.szchenxi.cf/about/app.html",
+					text: "关于",
+					iconPath: 'img/about.png',
+					selectedIconPath: 'img/about-selected.png'
+				}]
+			});
+		</script>
 	</body>
 
 </html>
