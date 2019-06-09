@@ -12,9 +12,21 @@
 			}
 
 			.tab-item.active {
-				color: blue;
+				color: black;
 			}
 		</style>
+		<script type="text/javascript">
+			if (window.plus) {
+				plusReady()
+			} else {
+				document.addEventListener('plusready', plusReady, false)
+			}
+
+			function plusReady() {
+				plus.navigator.setStatusBarBackground('#007bff');
+				plus.navigator.setStatusBarStyle('white');
+			}
+		</script>
 		<script src="__wap2apptabbar.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 

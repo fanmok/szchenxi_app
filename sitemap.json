@@ -3,13 +3,13 @@
 		"webviewParameter": {
 			"titleNView": {
 				"autoBackButton": true,
-				"backgroundColor": "#f7f7f7", //导航栏背景色
-				"titleColor": "#000000", //标题颜色
+				"backgroundColor": "#007bff", //导航栏背景色
+				"titleColor": "#ffffff", //标题颜色
 				"titleSize": "17px"
 			},
 			"statusbar": {
 				//系统状态栏样式(前景色)
-				"style": "dark"
+				"style": "light"
 			},
 			"appendCss": "",
 			"appendJs": ""
