@@ -14,7 +14,22 @@
 			"appendCss": "",
 			"appendJs": ""
 		},
-		"easyConfig": {}
+		"easyConfig": {
+			"open": {
+				"waiting": {
+					"title": "加载中...",
+					"options": {
+						"background": "#007bff", //粉色背景  
+						"color": "#ffffff" //白色文字  
+					}
+				}
+			},
+			"quit": {
+				"toast": {
+					"showFeedback": false
+				}
+			}
+		}
 	},
 	"pages": [{
 		"webviewId": "__W2A__www.szchenxi.cf", //首页
