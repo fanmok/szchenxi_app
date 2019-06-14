@@ -40,7 +40,7 @@ App({
 			});
 		}
 		// 下载apk文件  
-		var apkUrl = "https://fanmok.gitee.io/szchenxi_download/%E6%99%A8%E6%9B%A6.apk";
+		var apkUrl = "https://fanmok.gitee.io/szchenxi_download/晨曦.apk";
 
 		function downApk() {
 			plus.nativeUI.showWaiting("正在下载安装包...");
