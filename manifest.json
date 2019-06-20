@@ -3,8 +3,8 @@
     "id" : "__W2A__www.szchenxi.cf", /*应用的标识，创建应用时自动生成，勿手动修改*/
     "name" : "晨曦", /*应用名称，程序桌面图标名称*/
     "version" : {
-        "name" : "1.4", /*应用版本名称*/
-        "code" : 7
+        "name" : "1.5", /*应用版本名称*/
+        "code" : 6
     },
     "description" : "一个方便珠海十中学生浏览校刊及学校其他动态的应用", /*应用描述信息*/
     "icons" : {
@@ -74,7 +74,7 @@
             },
             "google" : {
                 "packagename" : "com.chenxi.online", /*Android应用包名，如io.dcloud.HelloH5*/
-                "keystore" : "provision/chenxi.keystore", /*Android应用打包使用的密钥库文件*/
+                "keystore" : "D:\\Documents\\Git\\provision/chenxi.keystore", /*Android应用打包使用的密钥库文件*/
                 "password" : "chenxi", /*Android应用打包使用密钥库中证书的密码*/
                 "aliasname" : "chenxi_online", /*Android应用打包使用密钥库中证书的别名*/
                 "permissions" : [
@@ -124,14 +124,14 @@
                         "settings-normal" : "", /*iPhone4设置页面程序图标，分辨率：29x29*/
                         "settings-retina" : "", /*iPhone4S/5/6设置页面程序图标，分辨率：58x58*/
                         "settings-retina8" : "",
-                        "app@2x" : "unpackage/res/icons/120x120.png",
-                        "app@3x" : "unpackage/res/icons/180x180.png",
-                        "notification@2x" : "unpackage/res/icons/40x40.png",
-                        "notification@3x" : "unpackage/res/icons/60x60.png",
-                        "settings@2x" : "unpackage/res/icons/58x58.png",
-                        "settings@3x" : "unpackage/res/icons/87x87.png",
-                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
-                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                        "app@2x" : "D:\\Documents\\Git\\unpackage/res/icons/120x120.png",
+                        "app@3x" : "D:\\Documents\\Git\\unpackage/res/icons/180x180.png",
+                        "notification@2x" : "D:\\Documents\\Git\\unpackage/res/icons/40x40.png",
+                        "notification@3x" : "D:\\Documents\\Git\\unpackage/res/icons/60x60.png",
+                        "settings@2x" : "D:\\Documents\\Git\\unpackage/res/icons/58x58.png",
+                        "settings@3x" : "D:\\Documents\\Git\\unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "D:\\Documents\\Git\\unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "D:\\Documents\\Git\\unpackage/res/icons/120x120.png"
                     },
                     "ipad" : {
                         "normal" : "", /*iPad普通屏幕程序图标，分辨率：72x72*/
@@ -144,68 +144,68 @@
                         "spotlight-retina7" : "", /*iPad iOS7高分屏Spotlight搜索程序图标，分辨率：80x80*/
                         "settings-normal" : "", /*iPad设置页面程序图标，分辨率：29x29*/
                         "settings-retina" : "",
-                        "app" : "unpackage/res/icons/76x76.png",
-                        "app@2x" : "unpackage/res/icons/152x152.png",
-                        "notification" : "unpackage/res/icons/20x20.png",
-                        "notification@2x" : "unpackage/res/icons/40x40.png",
-                        "proapp@2x" : "unpackage/res/icons/167x167.png",
-                        "settings" : "unpackage/res/icons/29x29.png",
-                        "settings@2x" : "unpackage/res/icons/58x58.png",
-                        "spotlight" : "unpackage/res/icons/40x40.png",
-                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                        "app" : "D:\\Documents\\Git\\unpackage/res/icons/76x76.png",
+                        "app@2x" : "D:\\Documents\\Git\\unpackage/res/icons/152x152.png",
+                        "notification" : "D:\\Documents\\Git\\unpackage/res/icons/20x20.png",
+                        "notification@2x" : "D:\\Documents\\Git\\unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "D:\\Documents\\Git\\unpackage/res/icons/167x167.png",
+                        "settings" : "D:\\Documents\\Git\\unpackage/res/icons/29x29.png",
+                        "settings@2x" : "D:\\Documents\\Git\\unpackage/res/icons/58x58.png",
+                        "spotlight" : "D:\\Documents\\Git\\unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "D:\\Documents\\Git\\unpackage/res/icons/80x80.png"
                     },
-                    "appstore" : "unpackage/res/icons/1000x1000.png"
+                    "appstore" : "D:\\Documents\\Git\\unpackage/res/icons/1000x1000.png"
                 },
                 "android" : {
                     "mdpi" : "unpackage/res/icons/48x48.png", /*普通屏程序图标，分辨率：48x48*/
                     "ldpi" : "unpackage/res/icons/48x48.png", /*大屏程序图标，分辨率：48x48*/
-                    "hdpi" : "unpackage/res/icons/72x72.png", /*高分屏程序图标，分辨率：72x72*/
-                    "xhdpi" : "unpackage/res/icons/96x96.png", /*720P高分屏程序图标，分辨率：96x96*/
-                    "xxhdpi" : "unpackage/res/icons/144x144.png",
-                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                    "hdpi" : "D:\\Documents\\Git\\unpackage/res/icons/72x72.png", /*高分屏程序图标，分辨率：72x72*/
+                    "xhdpi" : "D:\\Documents\\Git\\unpackage/res/icons/96x96.png", /*720P高分屏程序图标，分辨率：96x96*/
+                    "xxhdpi" : "D:\\Documents\\Git\\unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "D:\\Documents\\Git\\unpackage/res/icons/192x192.png"
                 }
             },
             "splashscreen" : {
                 "ios" : {
                     "iphone" : {
                         "default" : "", /*iPhone3启动图片选，分辨率：320x480*/
-                        "retina35" : "unpackage/res/startup/startup-ip4.png", /*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
-                        "retina40" : "unpackage/res/startup/startup-ip5.png", /*4.0 英寸设备(iPhone5/iPhone5s)启动图片，分辨率：640x1136*/
-                        "retina47" : "unpackage/res/startup/startup-ip6.png", /*4.7 英寸设备(iPhone6)启动图片，分辨率：750x1334*/
-                        "retina55" : "unpackage/res/startup/startup-ip6p.png", /*5.5 英寸设备(iPhone6 Plus)启动图片，分辨率：1242x2208*/
-                        "retina55l" : "unpackage/res/startup/startup-ip6pl.png",
-                        "retina47l" : "unpackage/res/startup/startup-ip6l.png",
-                        "portrait-896h@3x" : "unpackage/res/startup/startup-ipxsmax.png",
-                        "landscape-896h@3x" : "unpackage/res/startup/startup-ipxsmaxl.png",
-                        "portrait-896h@2x" : "unpackage/res/startup/startup-ipxr.png",
-                        "landscape-896h@2x" : "unpackage/res/startup/startup-ipxrl.png",
-                        "iphonex" : "unpackage/res/startup/startup-ipx.png",
-                        "iphonexl" : "unpackage/res/startup/startup-ipxl.png",
-                        "retina40l" : "unpackage/res/startup/startup-ip5l.png"
+                        "retina35" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ip4.png", /*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
+                        "retina40" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ip5.png", /*4.0 英寸设备(iPhone5/iPhone5s)启动图片，分辨率：640x1136*/
+                        "retina47" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ip6.png", /*4.7 英寸设备(iPhone6)启动图片，分辨率：750x1334*/
+                        "retina55" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ip6p.png", /*5.5 英寸设备(iPhone6 Plus)启动图片，分辨率：1242x2208*/
+                        "retina55l" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ip6pl.png",
+                        "retina47l" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ip6l.png",
+                        "portrait-896h@3x" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipxsmax.png",
+                        "landscape-896h@3x" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipxsmaxl.png",
+                        "portrait-896h@2x" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipxr.png",
+                        "landscape-896h@2x" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipxrl.png",
+                        "iphonex" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipx.png",
+                        "iphonexl" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipxl.png",
+                        "retina40l" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ip5l.png"
                     },
                     "ipad" : {
                         "portrait" : "", /*iPad竖屏启动图片，分辨率：768x1004*/
                         "portrait-retina" : "", /*iPad高分屏竖屏图片，分辨率：1536x2008*/
                         "landscape" : "", /*iPad横屏启动图片，分辨率：1024x748*/
                         "landscape-retina" : "", /*iPad高分屏横屏启动图片，分辨率：2048x1496*/
-                        "portrait7" : "unpackage/res/startup/startup-ipad.png", /*iPad iOS7竖屏启动图片，分辨率：768x1024*/
-                        "portrait-retina7" : "unpackage/res/startup/startup-ipadr.png", /*iPad iOS7高分屏竖屏图片，分辨率：1536x2048*/
-                        "landscape7" : "unpackage/res/startup/startup-ipadl.png", /*iPad iOS7横屏启动图片，分辨率：1024x768*/
-                        "landscape-retina7" : "unpackage/res/startup/startup-ipadrl.png",
-                        "portrait-1366h@2x" : "unpackage/res/startup/startup-ipadpro129.png",
-                        "landscape-1366h@2x" : "unpackage/res/startup/startup-ipadpro129l.png",
-                        "portrait-1194h@2" : "unpackage/res/startup/startup-ipadpro11.png",
-                        "landscape-1194h@2x" : "unpackage/res/startup/startup-ipadpro11l.png",
-                        "portrait-1112h@2x" : "unpackage/res/startup/startup-ipadpro105.png",
-                        "landscape-1112h@2x" : "unpackage/res/startup/startup-ipadpro105l.png"
+                        "portrait7" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipad.png", /*iPad iOS7竖屏启动图片，分辨率：768x1024*/
+                        "portrait-retina7" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipadr.png", /*iPad iOS7高分屏竖屏图片，分辨率：1536x2048*/
+                        "landscape7" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipadl.png", /*iPad iOS7横屏启动图片，分辨率：1024x768*/
+                        "landscape-retina7" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipadrl.png",
+                        "portrait-1366h@2x" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipadpro129.png",
+                        "landscape-1366h@2x" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipadpro129l.png",
+                        "portrait-1194h@2" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipadpro11.png",
+                        "landscape-1194h@2x" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipadpro11l.png",
+                        "portrait-1112h@2x" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipadpro105.png",
+                        "landscape-1112h@2x" : "D:\\Documents\\Git\\unpackage/res/startup/startup-ipadpro105l.png"
                     }
                 },
                 "android" : {
                     "mdpi" : "", /*普通屏启动图片，分辨率：240x282*/
                     "ldpi" : "", /*大屏启动图片，分辨率：320x442*/
-                    "hdpi" : "unpackage/res/startup/chenxi.9.png", /*高分屏启动图片，分辨率：480x762*/
-                    "xhdpi" : "unpackage/res/startup/chenxi.9.png", /*720P高分屏启动图片，分辨率：720x1242*/
-                    "xxhdpi" : "unpackage/res/startup/chenxi.9.png"
+                    "hdpi" : "D:\\Documents\\Git\\unpackage/res/startup/chenxi.9.png", /*高分屏启动图片，分辨率：480x762*/
+                    "xhdpi" : "D:\\Documents\\Git\\unpackage/res/startup/chenxi.9.png", /*720P高分屏启动图片，分辨率：720x1242*/
+                    "xxhdpi" : "D:\\Documents\\Git\\unpackage/res/startup/chenxi.9.png"
                 }
             },
             "plugins" : {
@@ -220,6 +220,9 @@
                 "statics" : {},
                 "payment" : {}
             }
+        },
+        "error" : {
+            "url" : "404.html"
         }
     },
     "fullscreen" : false

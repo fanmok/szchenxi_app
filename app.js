@@ -15,7 +15,7 @@ App({
 		}
 		var ua = navigator.userAgent;
 		if (ua.indexOf('Html5Plus') > -1 && ua.indexOf('StreamApp') == -1) {
-			var server = "https://tg.szchenxi.cf/update.php"; //检查更新地址  
+			var server = "https://www.tgchenxi.cf/update.php"; //检查更新地址  
 			var req = { //升级检测数据  
 				"appid": plus.runtime.appid,
 				"version": plus.runtime.version,
