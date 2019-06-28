@@ -19,8 +19,8 @@
 				"waiting": {
 					"title": "加载中...",
 					"options": {
-						"background": "black", //粉色背景  
-						"color": "white" //白色文字  
+						"background": "#000000", //黑色背景  
+						"color": "#ffffff" //白色文字  
 					}
 				}
 			},

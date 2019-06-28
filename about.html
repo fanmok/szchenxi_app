@@ -6,19 +6,6 @@
     <meta http-equiv='Content-Language' content='zh'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://fanmok.gitee.io/szchenxi_cdn/bootstrap.min.css">
-    <script>
-        if (('standalone' in window.navigator) && window.navigator.standalone) {
-            var noddy, remotes = false;
-            document.addEventListener('click', function (event) {
-                noddy = event.target;
-                while (noddy.nodeName !== 'A' && noddy.nodeName !== 'HTML') noddy = noddy.parentNode;
-                if ('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes)) {
-                    event.preventDefault();
-                    document.location.href = noddy.href;
-                }
-            }, false);
-        }
-    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -54,7 +41,7 @@
                 <div class="text-center">
                     <p><img src="img/chenxi.png" alt="Logo" width="100" height="100" title="Logo" align="absmiddle"></p>
                     <h3>晨曦</h3>
-                    <p class="lead">Version 1.5(beta)</p>
+                    <p class="lead">Version 1.5 (beta)</p>
                     <p class="lead">一个方便珠海十中学生浏览校刊及学校其他动态的应用</p>
                 </div>
                 <hr class="my-4">
