@@ -2,61 +2,87 @@
 <html lang="zh-cmn-Hans">
 
 <head>
+    <!--meta-->
     <meta charset="utf-8">
     <meta http-equiv='Content-Language' content='zh'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--title-->
+    <title>关于 |《晨曦》校刊</title>
+    <!--icon-->
+    <link rel="icon" sizes="192x192" href="/images/icon.png">
+    <link href="/favicon.ico" rel="shortcut icon">
+    <!--css-->
     <link rel="stylesheet" href="https://fanmok.gitee.io/szchenxi_cdn/bootstrap.min.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-132568926-1');
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+    <!--font-->
     <link href="https://fonts.loli.net/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
-    <title>关于 | 晨曦</title>
-    <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
     <style>
         body,
         html {
             font-family: 'Noto Sans SC', sans-serif;
         }
     </style>
-    <style>
-        .html5plus .html5plus-hide {
-            display: none
-        }
-    </style>
-    <script>
-        if (navigator.userAgent.indexOf("Html5Plus") > -1) {
-            document.body.classList.add("html5plus");
-        }  
-    </script>
 </head>
 
-<body class='lang-zh page-front' ontouchstart=''>
+<body class='lang-zh page-front vsc-initialized' ontouchstart=''>
     <main>
         <section>
             <div class="container py-3">
                 <div class="text-center">
                     <p><img src="img/chenxi.png" alt="Logo" width="100" height="100" title="Logo" align="absmiddle"></p>
                     <h3>晨曦</h3>
-                    <p class="lead">Version 1.5 (beta)</p>
+                    <p class="lead">Version 1.5</p>
                     <p class="lead">一个方便珠海十中学生浏览校刊及学校其他动态的应用</p>
                 </div>
                 <hr class="my-4">
-                <p>Android客户端基于DCloud的web2app框架，运行速度加快，添加原生功能。</p>
-                <p class="text-center"><a href="https://github.com/fanmok/szchenxi_app/" target="_blank"
-                        class="btn text-white" style="background-color: #77C159">Android项目地址</a></p>
-                <p class="text-center"><a href="https://www.szchenxi.cf/app/index.html" target="_blank"
-                        class="btn text-white" style="background-color: #77C159">查看最新版本</a></p>
+                <p>移动客户端基于DCloud的web2app框架，运行速度加快，添加原生功能。</p>
+                <div align="center">
+                    <div class="btn-group">
+                        <a href="https://github.com/fanmok/szchenxi_app/" target="_blank" class="btn btn-dark text-white">GitHub项目地址</a>
+                        <a href="https://www.szchenxi.cf/app/index.html" target="_blank" class="btn text-white"
+                            style="background-color: #77C159">查看最新版本</a></div>
+                </div>
+                <hr>
+                <div align="center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            关于
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.szchenxi.cf/about/wxs.html">晨曦文学社</a>
+                            <a class="dropdown-item" href="https://www.szchenxi.cf/about/cx.html">《晨曦》校刊</a>
+                            <a class="dropdown-item" href="https://www.szchenxi.cf/about/online.html">线上校刊</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://www.szchenxi.cf/about/studentunion.html">珠海十中学生会</a>
+                            <a class="dropdown-item" href="https://www.szchenxi.cf/about/zhsz.html">珠海市第十中学</a>
+                            <a class="dropdown-item" href="https://www.dreamstar.cf/" target="_blank">梦星工作室</a>
+                        </div>
+                        <button id="share" class="btn btn-danger">分享</button>
+                    </div>
+                </div>
             </div>
         </section>
         <p class="text-center form-control form-control-sm">Copyright © 晨曦文学社 All rights reserved.</p>
     </main>
+    <!--script-->
     <script src="https://fanmok.gitee.io/szchenxi_cdn/jquery-3.3.1.min.js"></script>
     <script src="https://fanmok.gitee.io/szchenxi_cdn/popper.min.js"></script>
     <script src="https://fanmok.gitee.io/szchenxi_cdn/bootstrap.min.js"></script>
+    <!--share-->
+    <script src="https://fanmok.gitee.io/szchenxi_cdn/plusShare.js"></script>
+    <script src="https://fanmok.gitee.io/szchenxi_cdn/social-share.min.js"></script>
+    <script>
+        document.getElementById("share").addEventListener("click", function () {
+            //5+ 原生分享  
+            window.plusShare({
+                title: "珠海十中《晨曦》校刊",//应用名字
+                content: "珠海十中《晨曦》校刊 APP",
+                href: "https://www.szchenxi.cf/",//分享出去后，点击跳转地址  
+                thumbs: ["/images/icon.png"] //分享缩略图 
+            }, function (result) {
+                //分享回调  
+            });
+        });
+    </script>
 </body>
-
-</html>
