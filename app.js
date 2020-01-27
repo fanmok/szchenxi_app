@@ -86,7 +86,7 @@ App({
 		console.log('hide');
 	}
 });
-Page('__W2A__www.szchenxi.cf', { //首页扩展配置
+Page('__W2A__szchenxi.netlify.com', { //首页扩展配置
 	onShow: function() {
 
 	},

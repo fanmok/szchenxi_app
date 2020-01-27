@@ -32,23 +32,23 @@
 		}
 	},
 	"pages": [{
-		"webviewId": "__W2A__www.szchenxi.cf", //首页
+		"webviewId": "__W2A__szchenxi.netlify.com", //首页
 		"matchUrls": [{
-			"href": "https://www.szchenxi.cf"
+			"href": "https://szchenxi.netlify.com"
 		}, {
-			"href": "https://www.szchenxi.cf/"
+			"href": "https://szchenxi.netlify.com/"
 		}],
 		"webviewParameter": {
 			"tabBar": {
 				"height": "50px",
 				"list": [{
-					"url": "https://www.szchenxi.cf/"
+					"url": "https://szchenxi.netlify.com/"
 				}, {
-					"url": "https://www.szchenxi.cf/newspaper/index.html"
+					"url": "https://szchenxi.netlify.com/newspaper/index.html"
 				}, {
-					"url": "https://www.szchenxi.cf/activity/index.html"
+					"url": "https://szchenxi.netlify.com/activity/index.html"
 				}, {
-					"url": "https://www.szchenxi.cf/photo/index.html"
+					"url": "https://szchenxi.netlify.com/photo/index.html"
 				}, {
 					"url": "about.html"
 				}]
